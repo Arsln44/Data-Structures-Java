@@ -3,13 +3,14 @@ package NewPkg;
 public class Main {
 
 	public static void main(String[] args) {
-		TekYonluDaireselListe tydl = new TekYonluDaireselListe();
+		Stack stack = new Stack(5);
 		
-		tydl.basaEkle();
-		tydl.basaEkle();
-		tydl.basaEkle();
-		tydl.basaEkle();
-		tydl.sonaEkle();
-		tydl.yazdir();
+		stack.push(10);
+		stack.push(9);
+		stack.push(7);
+		stack.pop();
+		
+
 	}
+
 }
